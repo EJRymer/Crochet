@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Following Patterns</title>
+</head>
+    <style>
+         .question {
+            color: black;
+            font-size: 20pt;
+            }
+        input[type="button"] {
+            background-color: lightblue;
+            }
+    </style>
+    <script>
+        function wrongAnswer() {
+            alert("Sorry, you are wrong!");
+            }
+        function rightAnswer() {
+            alert("Yes, You are right!");
+            }
+    </script>
+    <body>
+        <div class="question">
+    <p>6sc in MR.</p>
+            </div>
+    <p>What does this mean?</p>
+    <p><input type="button" value="Slip Stitch 6 times."onclick="wrongAnswer();"/></p>
+    <p><input type="button" value="Single Crochet 6 times into a Magic Ring." onclick="rightAnswer();"/></p>
+    <p><input type="button" value="Softly Crochet 6 times into a Magic Ring."onclick="wrongAnswer();"/></p>
+    <p><input type="button" value="A Mr. is going to do 6 single crochets." onclick="wrongAnswer();"/></p>
+        <p><a href="followingpatterns2.html"> Next Question</a></p>
+    </body>
+    </html>
+
+

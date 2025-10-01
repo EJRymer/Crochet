@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Following Patterns 3</title>
+</head>
+    <style>
+        .question {
+            color: black;
+            font-size: 20pt;
+            }
+        input[type="button"] {
+            background-color: lightgreen;
+            }
+    </style>
+    <script>
+        function wrongAnswer() {
+            alert("Sorry, you are wrong!");
+            }
+        function rightAnswer() {
+            alert("Yes, You are right!");
+            }
+    </script>
+    <body>
+        <div class="question">
+    <p>Ch 7. 2nd st. from hook, sc.</p>
+            </div>
+    <p>What does this mean?</p>
+    <p><input type="button" value="Chain 7 stitches. In the second stitch from the hook, do a single crochet."onclick="rightAnswer();"/></p>
+    <p><input type="button" value="Chew 7 times then go to second street to find a hook." onclick="wrongAnswer();"/></p>
+    <p><input type="button" value="Chain 7, then sc if you want."onclick="wrongAnswer();"/></p>
+    <p><input type="button" value="Chain 7, then chain 2, then sc." onclick="wrongAnswer();"/></p>
+        <p><a href="followingpatterns4.html"> Next Question</a></p>
+    </body>
+    </html>
+
+
